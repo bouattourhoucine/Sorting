@@ -1,0 +1,19 @@
+PROCEDURE swap(Tab: array_ name : array_of INTEGER)
+VAR
+    j,i INTEGER
+BEGIN
+    a:=Tab.length 
+    FOR j FROM 0 TO a-1 STEP 1  DO
+    
+      FOR i FROM 0 TO a-1 STEP 1  DO
+
+
+ IF (tab[i]>tab[i+1]) THEN
+            swap(tab[i],tab[i+1])
+
+     END_IF   
+      
+      END_FOR
+       
+    END_FOR
+END
